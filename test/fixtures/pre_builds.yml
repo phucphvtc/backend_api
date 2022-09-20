@@ -1,0 +1,31 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  purpose: one
+  price_range: one
+  cpu: MyString
+  cooler: MyString
+  main: MyString
+  ram: MyString
+  ssd: MyString
+  hdd: MyString
+  gpu: MyString
+  psw: MyString
+  case: MyString
+  price: 1
+  status: false
+
+two:
+  purpose: two
+  price_range: two
+  cpu: MyString
+  cooler: MyString
+  main: MyString
+  ram: MyString
+  ssd: MyString
+  hdd: MyString
+  gpu: MyString
+  psw: MyString
+  case: MyString
+  price: 1
+  status: false

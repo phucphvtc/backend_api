@@ -1,0 +1,27 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  type: one
+  name: MyString
+  socket: MyString
+  dimm: MyString
+  ssd: MyString
+  hdd: MyString
+  form: MyString
+  size: 1
+  capacity: 1
+  wattage: 1
+  price: 1
+
+two:
+  type: two
+  name: MyString
+  socket: MyString
+  dimm: MyString
+  ssd: MyString
+  hdd: MyString
+  form: MyString
+  size: 1
+  capacity: 1
+  wattage: 1
+  price: 1
