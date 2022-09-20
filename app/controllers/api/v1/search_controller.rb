@@ -1,13 +1,15 @@
 module Api
   module V1 
     class SearchController < ApplicationController
+
+      #Custom search serializer
+
       def search
         
         @q = Detail.ransack(params[:q])
-        @details = @q.result
+        @abc = @q.result
+        render json: @abc , each_serializer: SearchDetailSerializer
 
-        render json: @details 
-        
       end
     end
   end

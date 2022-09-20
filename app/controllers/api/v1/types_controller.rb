@@ -18,7 +18,7 @@ module Api
         # render json: Type.find_by(id: params[:id]), serializer: TypeSerializer
       
       #  type = Type.find_by(id: params[:id])
-       render json: @type, serializer: TypeSerializer
+       render json: @type #serializer: TypeSerializer
     
       end
     

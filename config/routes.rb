@@ -7,7 +7,6 @@ Rails.application.routes.draw do
       resources :details
       resources :types
       get '/search', to: 'search#search'
-
     end
   end
 end

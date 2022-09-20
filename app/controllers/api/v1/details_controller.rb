@@ -12,7 +12,7 @@ module Api
     
       # GET /details/1
       def show
-        render json: @detail, serializer: DetailSerializer
+        render json: @detail#, serializer: DetailSerializer
       end
     
       
