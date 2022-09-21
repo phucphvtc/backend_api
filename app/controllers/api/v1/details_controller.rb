@@ -49,7 +49,7 @@ module Api
     
         # Only allow a list of trusted parameters through.
         def detail_params
-          params.require(:detail).permit(:type_id, :name, :socket, :dimm, :ssd, :hdd, :form, :size, :capacity, :wattage, :price, :status)
+          params.require(:detail).permit(:type_id, :name, :socket, :dimm, :ssd, :hdd, :form, :size, :capacity, :wattage, :price, :img, :status)
         end
     end
     

@@ -26,6 +26,7 @@ ActiveRecord::Schema[7.0].define(version: 2022_09_09_080732) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.boolean "status"
+    t.string "img"
     t.index ["type_id"], name: "index_details_on_type_id"
   end
 
