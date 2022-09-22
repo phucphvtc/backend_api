@@ -7,12 +7,12 @@ module Api
       def index
         @details = Detail.all
     
-        render json: @details
+        render json: @details,each_serializer: nil
       end
     
       # GET /details/1
       def show
-        render json: @detail#, serializer: DetailSerializer
+        render json: @detail, each_serializer: nil
       end
     
       

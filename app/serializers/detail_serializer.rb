@@ -4,8 +4,5 @@ class DetailSerializer < ActiveModel::Serializer
   def type_name
     object.type.name
   end
-
-
   # belongs_to :type
-
 end

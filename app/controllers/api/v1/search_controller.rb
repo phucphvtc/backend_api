@@ -5,12 +5,13 @@ module Api
       #Custom search serializer
 
       def search
-        
         @q = Detail.ransack(params[:q])
-        @abc = @q.result
-        render json: @abc , each_serializer: SearchDetailSerializer
-
+        # @p = Detail.ransach(params[:p])
+        @s_name = @q.result #&& @p.result
+        render json: @s_name , each_serializer: nil
       end
+
+
     end
-  end
+  end 
 end

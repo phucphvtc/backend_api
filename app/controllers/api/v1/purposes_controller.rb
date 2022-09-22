@@ -6,7 +6,6 @@ module Api
       # GET /purposes
       def index
         @purposes = Purpose.all
-    
         render json: @purposes
       end
     
@@ -48,7 +47,7 @@ module Api
     
         # Only allow a list of trusted parameters through.
         def purpose_params
-          params.require(:purpose).permit(:name, :status)
+          params.permit(:name, :status)
         end
     end
     
